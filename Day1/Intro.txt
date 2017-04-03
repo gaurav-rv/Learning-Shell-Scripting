@@ -1,0 +1,33 @@
+Starts with #!bin/bash
+chmod is to change permissions 
+Change permissions to chmod 755 script.sh
+To execute : ./script.sh
+
+
+Variables :
+Must be Capital while declaring 
+	
+		#! /bin/bash
+		MY_SHELL="bash"
+		echo "This is $MY_SHELL "
+		
+	It could be a command output as well
+	
+		#! /bin/bash
+		SERVER_NAME=$(hostname)
+		echo "You are running the script on $SERVER_NAME"
+	
+Test conditions 
+if
+
+#!/bin/bash
+MY_SHELL ="bash"
+
+if [ "$MY_SHELL" = "bash" ]
+then 
+	echo "You seem to like the bash shell"
+fi
+
+
+IF is completed by a FI.
+
