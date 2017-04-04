@@ -20,14 +20,25 @@ Must be Capital while declaring
 Test conditions 
 if
 
-#!/bin/bash
-MY_SHELL ="bash"
+	#!/bin/bash
+	MY_SHELL ="bash"
 
-if [ "$MY_SHELL" = "bash" ]
-then 
-	echo "You seem to like the bash shell"
-fi
+	if [ "$MY_SHELL" = "bash" ]
+	then 
+		echo "You seem to like the bash shell"
+	else 
+		echo "Fake News"
+	fi
 
 
 IF is completed by a FI.
 
+
+For Loop:
+	List iterator
+	
+	#!/bin/bash
+	for COLOR in red green blue 
+	do
+		echo "Color: $COLOR"
+	done
